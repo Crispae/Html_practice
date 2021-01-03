@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>iFrames</h1>
+    <!--Iframe is use to embed different webpages in one webpage 
+    or different frameborder attribute is used to provide
+border to the iframe
+        - It is a type of inline frame element-->
+
+    <h2>Open in Iframe</h2>
+
+    <!--This is the example of opening a html page within the
+    iframe use name attribute of iframe element and adding this to
+target attribute of anchor element-->
+    <ul>Links in iframe
+        <li><a href="./links.html" target="Iframe2">links</a></li>
+        <li><a href="./inner_links.html" target="Iframe2">
+            Inner-links</a></li>
+    </ul>
+    <iframe   
+    frameborder="0"
+     width="400"
+    height="400" 
+    src="./inner_links.html"></iframe>
+    <h3>Embedding an external page</h3>
+
+    <iframe name="Iframe2"
+    width="400"
+    height="400"
+    src="https://example.com">
+
+
+    </iframe>
+
+
+
+
+
+
+
+
+
+
+
+
+
+</body>
+</html>
