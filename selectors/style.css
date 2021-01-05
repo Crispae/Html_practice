@@ -1,0 +1,37 @@
+* {
+
+    background-color: azure;    
+}
+
+div {
+
+    color:red;
+}
+
+p {
+
+    color: blue;
+}
+
+.div1 {
+    color: orange;
+}
+
+.div3 {
+    color: GREEN;
+}
+
+.bold {
+    font-weight: bold;
+    font-size: 23pt;
+}
+#one {
+    background-color: yellow;
+}
+#two {
+    background-color: pink;
+}
+input[input="text"]{
+
+    font-size:50pt;
+}
